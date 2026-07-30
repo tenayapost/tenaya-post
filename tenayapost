@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tenaya Post — Bookkeeping &amp; Operations</title>
+<meta name="description" content="Operations and bookkeeping for small businesses and real estate firms. Bilingual: English and Español. Free consultation.">
+<style>
+  :root{
+    --ivory:#FBFBEC;
+    --navy:#232F3B;
+    --navy-soft:#5b6570;
+    --petal:#E8C7D2;
+    --maroon:#8C2F4E;
+    --maroon-deep:#7A1E3D;
+    --teal:#4A7A8C;
+    --line:#e2ddc4;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    background:var(--ivory);
+    color:var(--navy);
+    font-family:"Helvetica Neue",Helvetica,Arial,"Segoe UI",sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    padding:0 22px;
+  }
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+  .wrap{max-width:560px;margin:0 auto;padding:26px 0 60px}
+
+  .topbar{display:flex;justify-content:flex-end;margin-bottom:14px}
+  .lang{display:inline-flex;border:0.5px solid var(--navy);border-radius:999px;overflow:hidden}
+  .lang button{
+    background:transparent;border:0;cursor:pointer;
+    font:inherit;font-size:12px;letter-spacing:2px;color:var(--navy);
+    padding:6px 14px;transition:background .15s,color .15s;
+  }
+  .lang button[aria-pressed="true"]{background:var(--navy);color:var(--ivory)}
+  .lang button:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+
+  header{text-align:center;padding:14px 0 26px}
+  .mark{width:118px;height:118px;display:block;margin:0 auto 16px}
+  .wordmark{font-size:34px;letter-spacing:11px;font-weight:400;margin-left:11px}
+  .sub{font-size:12px;letter-spacing:7px;margin-top:4px}
+  .tagline{font-size:14.5px;letter-spacing:.5px;color:var(--navy-soft);max-width:360px;margin:18px auto 0;line-height:1.55}
+
+  .hook{
+    text-align:center;border-top:0.5px solid var(--line);border-bottom:0.5px solid var(--line);
+    padding:22px 0;margin:12px 0 30px;
+  }
+  .hook .k{font-size:15px;letter-spacing:4px;color:var(--maroon-deep)}
+  .hook .d{font-size:13.5px;color:var(--navy-soft);margin-top:6px}
+
+  .eyebrow{font-size:12px;letter-spacing:4px;color:var(--navy);text-align:center;margin-bottom:22px}
+
+  .svc{list-style:none;display:grid;gap:20px}
+  .svc li{display:grid;grid-template-columns:26px 1fr;gap:12px;align-items:start}
+  .dot{width:9px;height:9px;border-radius:50%;background:var(--maroon);margin-top:8px}
+  .svc h3{font-size:13px;letter-spacing:2px;font-weight:400;text-transform:uppercase}
+  .svc p{font-size:14px;color:var(--navy-soft);margin-top:3px;line-height:1.5}
+
+  .cred{text-align:center;font-size:12.5px;letter-spacing:1.5px;color:var(--teal);margin:34px 0 30px}
+
+  .contact{display:grid;gap:12px;max-width:340px;margin:0 auto}
+  .btn{
+    display:flex;align-items:center;justify-content:center;gap:10px;
+    text-decoration:none;font-size:13.5px;letter-spacing:1.5px;
+    padding:15px 18px;border-radius:2px;transition:opacity .15s,background .15s;
+  }
+  .btn svg{width:18px;height:18px;flex:none}
+  .btn-wa{background:var(--maroon);color:var(--ivory)}
+  .btn-wa:hover{background:var(--maroon-deep)}
+  .btn-mail{background:transparent;color:var(--navy);border:0.5px solid var(--navy)}
+  .btn-mail:hover{background:rgba(35,47,59,.05)}
+  .btn:focus-visible{outline:2px solid var(--teal);outline-offset:3px}
+
+  footer{text-align:center;font-size:11px;letter-spacing:2px;color:var(--navy-soft);margin-top:44px}
+
+  @media (max-width:400px){
+    .wordmark{font-size:28px;letter-spacing:8px}
+    .tagline{font-size:13.5px}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="sr-only">Tenaya Post — bilingual bookkeeping and operations for small businesses and real estate firms. Free consultation.</p>
+
+  <div class="topbar">
+    <div class="lang" role="group" aria-label="Language / Idioma">
+      <button id="btn-en" aria-pressed="true">EN</button>
+      <button id="btn-es" aria-pressed="false">ES</button>
+    </div>
+  </div>
+
+  <header>
+    <svg class="mark" viewBox="0 0 200 200" role="img" aria-label="Tenaya Post azalea mark">
+      <g fill="#E8C7D2">
+        <ellipse cx="100" cy="55" rx="30" ry="42"/>
+        <ellipse cx="150" cy="90" rx="30" ry="42" transform="rotate(72 150 90)"/>
+        <ellipse cx="131" cy="148" rx="30" ry="42" transform="rotate(144 131 148)"/>
+        <ellipse cx="69" cy="148" rx="30" ry="42" transform="rotate(216 69 148)"/>
+        <ellipse cx="50" cy="90" rx="30" ry="42" transform="rotate(288 50 90)"/>
+      </g>
+      <g stroke="#8C2F4E" stroke-width="4" fill="none" stroke-linecap="round">
+        <path d="M100 100 L92 42"/><path d="M100 100 L150 55"/><path d="M100 100 L152 118"/>
+        <path d="M100 100 L70 158"/><path d="M100 100 L48 128"/>
+      </g>
+      <g fill="#7A1E3D">
+        <circle cx="92" cy="42" r="7"/><circle cx="150" cy="55" r="7"/><circle cx="152" cy="118" r="7"/>
+        <circle cx="70" cy="158" r="7"/><circle cx="48" cy="128" r="7"/><circle cx="100" cy="100" r="9"/>
+      </g>
+    </svg>
+    <div class="wordmark">TENAYA</div>
+    <div class="sub">POST</div>
+    <p class="tagline" data-en="Operations and bookkeeping for small businesses and real estate firms."
+       data-es="Contabilidad y operaciones para pequeños negocios y firmas de bienes raíces.">Operations and bookkeeping for small businesses and real estate firms.</p>
+  </header>
+
+  <section class="hook">
+    <div class="k" data-en="FREE CONSULTATION" data-es="CONSULTA GRATIS">FREE CONSULTATION</div>
+    <div class="d" data-en="A no-cost first look at your books — no commitment."
+         data-es="Una primera revisión de tu contabilidad, sin costo ni compromiso.">A no-cost first look at your books — no commitment.</div>
+  </section>
+
+  <p class="eyebrow" data-en="SERVICES" data-es="SERVICIOS">SERVICES</p>
+
+  <ul class="svc">
+    <li><span class="dot"></span><div>
+      <h3 data-en="Accounts payable &amp; receivable" data-es="Cuentas por pagar y cobrar">Accounts payable &amp; receivable</h3>
+      <p data-en="Bills paid on time, invoices collected, and cash flow you can actually see."
+         data-es="Pagos a tiempo, facturas cobradas y un flujo de caja que sí puedes ver.">Bills paid on time, invoices collected, and cash flow you can actually see.</p>
+    </div></li>
+    <li><span class="dot"></span><div>
+      <h3 data-en="Month-end close &amp; reporting" data-es="Cierre mensual e informes">Month-end close &amp; reporting</h3>
+      <p data-en="Books closed cleanly every month, with reports you'll actually read."
+         data-es="Cierre de libros cada mes, con informes claros que sí vas a leer.">Books closed cleanly every month, with reports you'll actually read.</p>
+    </div></li>
+    <li><span class="dot"></span><div>
+      <h3 data-en="SOPs &amp; documentation" data-es="Procesos y documentación (SOPs)">SOPs &amp; documentation</h3>
+      <p data-en="Your processes written down, so the business runs without you in the room."
+         data-es="Tus procesos por escrito, para que el negocio funcione sin ti presente.">Your processes written down, so the business runs without you in the room.</p>
+    </div></li>
+    <li><span class="dot"></span><div>
+      <h3 data-en="Dashboards &amp; automation" data-es="Tableros y automatización">Dashboards &amp; automation</h3>
+      <p data-en="Live numbers and automated workflows that cut the busywork."
+         data-es="Números en tiempo real y procesos automáticos que reducen el trabajo repetitivo.">Live numbers and automated workflows that cut the busywork.</p>
+    </div></li>
+  </ul>
+
+  <p class="cred" data-en="Yesenia · 10+ years in operations · English &amp; Español"
+     data-es="Yesenia · 10+ años en operaciones · English &amp; Español">Yesenia · 10+ years in operations · English &amp; Español</p>
+
+  <div class="contact">
+    <a class="btn btn-wa" id="wa" href="https://wa.me/13239072255?text=Hi%20Yesenia%2C%20I%27d%20like%20a%20free%20consultation">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-2.9.8.8-2.8-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-2-1.2 7.4 7.4 0 0 1-1.4-1.7c-.1-.3 0-.4.1-.5l.4-.5.3-.5c.1-.1 0-.3 0-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.6 4c.6.3 1.1.4 1.5.6a3.6 3.6 0 0 0 1.6.1c.5-.1 1.5-.6 1.7-1.2s.2-1.1.2-1.2-.2-.2-.5-.3z"/></svg>
+      <span data-en="Message on WhatsApp" data-es="Escríbeme por WhatsApp">Message on WhatsApp</span>
+    </a>
+    <a class="btn btn-mail" href="mailto:yesenia@tenayapost.com">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3 7 9 6 9-6"/></svg>
+      <span data-en="Send an email" data-es="Enviar un correo">Send an email</span>
+    </a>
+  </div>
+
+  <footer data-en="Los Angeles · Serving clients remotely" data-es="Los Ángeles · Atención remota">Los Angeles · Serving clients remotely</footer>
+</div>
+
+<script>
+  (function(){
+    var enBtn=document.getElementById('btn-en');
+    var esBtn=document.getElementById('btn-es');
+    var wa=document.getElementById('wa');
+    var waEn="https://wa.me/13239072255?text=Hi%20Yesenia%2C%20I%27d%20like%20a%20free%20consultation";
+    var waEs="https://wa.me/13239072255?text=Hola%20Yesenia%2C%20me%20interesa%20una%20consulta%20gratis";
+    function set(lang){
+      document.querySelectorAll('[data-en]').forEach(function(el){
+        var v=el.getAttribute('data-'+lang);
+        if(v!==null) el.innerHTML=v;
+      });
+      document.documentElement.lang=lang;
+      enBtn.setAttribute('aria-pressed', lang==='en');
+      esBtn.setAttribute('aria-pressed', lang==='es');
+      wa.href = lang==='es' ? waEs : waEn;
+    }
+    enBtn.addEventListener('click',function(){set('en')});
+    esBtn.addEventListener('click',function(){set('es')});
+  })();
+</script>
+</body>
+</html>
